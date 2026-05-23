@@ -452,7 +452,7 @@ AI helps speed.
 Your understanding and execution still matter.
 
 </details>
----
+
 
 ## Open source mission
 
