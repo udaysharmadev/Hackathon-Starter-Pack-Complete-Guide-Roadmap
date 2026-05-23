@@ -195,18 +195,6 @@ A real deployment path for Vercel, Railway, Render, Firebase, Supabase, and more
 ### Presentation winning
 A judge-facing pitch system that helps your project feel clear, credible, and memorable.
 
----
-
-## Visual placeholders
-
-### Screenshot preview
-![Screenshot placeholder](assets/screenshots/screenshot-placeholder.png)
-
-### GIF preview
-![GIF placeholder](assets/gifs/demo-placeholder.gif)
-
-### Diagram preview
-![Diagram placeholder](assets/diagrams/architecture-placeholder.svg)
 
 ---
 
