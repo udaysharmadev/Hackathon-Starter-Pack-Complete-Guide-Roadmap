@@ -3,7 +3,7 @@
 | API | Website | What it Does | Free Tier | How To Use | Best For | Project Ideas | Difficulty |
 |---|---|---|---|---|---|---|---|
 | OpenRouter | https://openrouter.ai | Access multiple LLMs from one API | Yes | Get API key → choose model → API call | Multi-model apps | AI assistant, chatbot | Easy |
-| Gemini | https://ai.google.dev | Multimodal AI | Yes | Create API key → SDK/API call | AI apps | Study helper, document Q&A | Easy |
+| Gemini | https://aistudio.google.com | Multimodal AI | Yes | Create API key → SDK/API call | AI apps | Study helper, document Q&A | Easy |
 | Groq | https://groq.com | Ultra-fast inference | Yes | API key → completion endpoint | Fast demos | Real-time assistant | Easy |
 | Together AI | https://www.together.ai | Open-source model hosting | Yes | API key → model endpoint | Open models | AI playground | Easy |
 | OpenAI | https://platform.openai.com | GPT models | Paid/free credits vary | API key → completions | Serious AI products | AI SaaS | Easy |
