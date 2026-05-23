@@ -8,10 +8,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/"><img alt="stars" src="https://img.shields.io/badge/star-this%20repo-brightgreen?style=for-the-badge"></a>
-  <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-black?style=for-the-badge"></a>
-  <a href="CONTRIBUTING.md"><img alt="contributions" src="https://img.shields.io/badge/contributions-welcome-blue?style=for-the-badge"></a>
-  <a href="ROADMAP.md"><img alt="roadmap" src="https://img.shields.io/badge/roadmap-live-purple?style=for-the-badge"></a>
+  <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack">
+    <img alt="stars" src="https://img.shields.io/badge/⭐_Star-This_Repo-brightgreen?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack/blob/main/LICENSE">
+    <img alt="license" src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack/blob/main/CONTRIBUTING.md">
+    <img alt="contributions" src="https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack/blob/main/ROADMAP.md">
+    <img alt="roadmap" src="https://img.shields.io/badge/Roadmap-Live-purple?style=for-the-badge">
+  </a>
 </p>
 
 # Hackathon Starter Pack
