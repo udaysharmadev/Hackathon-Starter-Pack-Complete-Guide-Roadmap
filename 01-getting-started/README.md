@@ -15,6 +15,31 @@ The real game is not just coding. It is:
 - shipping a live demo,
 - and presenting it clearly.
 
+## Hackathon types
+
+Not all hackathons are the same.
+
+Understanding the format changes your strategy.
+
+| Type | What it is | Best approach |
+|---|---|---|
+| Open Innovation | Build anything | Solve a painful, obvious problem |
+| Sponsor Challenge | Build using sponsor tech | Use sponsor APIs early |
+| AI Hackathon | AI-first products | Focus on visible outputs |
+| College Hackathon | Beginner-friendly | Keep scope small and polished |
+| Startup/Incubator Hackathon | Business-oriented | Validate problem and market |
+| Government/Public Impact | Civic problems | Show measurable impact |
+
+### Quick rule
+
+If prizes are sponsor-specific, align your build with sponsor tooling whenever possible.
+
+Example:
+
+Google sponsor → use Gemini  
+Microsoft sponsor → use Azure/OpenAI  
+MongoDB sponsor → use MongoDB visibly
+
 ## Online vs offline
 
 | Format | Advantage | Risk | Best strategy |
@@ -43,6 +68,23 @@ Judges typically look for a mix of:
 - usefulness,
 - and presentation confidence.
 
+## Common judging criteria
+
+Every hackathon is different, but most scoring looks similar.
+
+| Criteria | What judges actually mean |
+|---|---|
+| Innovation | Is this solving something in a smart way? |
+| Technical complexity | Did the team build meaningful functionality? |
+| Practicality | Would someone actually use this? |
+| Design | Is the experience understandable quickly? |
+| Demo | Does it work smoothly under pressure? |
+| Business impact | Can this become something larger? |
+
+### Hidden truth
+
+A working, simple product usually beats an ambitious broken one.
+
 ### Judge mindset
 
 ```mermaid
@@ -70,6 +112,25 @@ They usually do not reward:
 - random dashboards with no user story,
 - and demos that need long explanations before they make sense.
 
+## What judges secretly look for
+
+Judges rarely say this directly, but they often reward projects that:
+
+- make sense in under 30 seconds,
+- solve a real pain point,
+- show obvious progress,
+- feel polished enough to trust,
+- avoid unnecessary complexity,
+- and demonstrate something memorable.
+
+### Fast mental test
+
+Ask yourself:
+
+> Would a stranger understand this without explanation?
+
+If not, simplify.
+
 ## Beginner myths
 
 | Myth | Reality |
@@ -80,6 +141,14 @@ They usually do not reward:
 | Design is optional | Design helps judges understand your product faster |
 | The pitch can be improvised | Winning teams rehearse |
 | The hackathon starts after the idea is chosen | The idea choice is already part of the build |
+
+## Beginner reality check
+
+Most first-time participants imagine hackathons like this:
+
+```text
+Crazy coding marathon → impossible competition → genius developers
+```
 
 ## Lifecycle of a good hackathon project
 
@@ -142,8 +211,19 @@ Start small.
 A tiny, useful, finished project beats a large unfinished concept.
 
 <details>
-<summary>Need a simple rule?</summary>
+<summary><strong>Need a simple hackathon rule?</strong></summary>
 
 If you cannot explain the project in one sentence, the scope is probably too large.
+
+A strong hackathon project usually looks like this:
+
+```text
+One user
+↓
+One painful problem
+↓
+One clear workflow
+↓
+One memorable demo
 
 </details>
