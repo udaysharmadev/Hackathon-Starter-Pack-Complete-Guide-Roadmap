@@ -1,6 +1,6 @@
 > ⭐ If this helps you, star the repo. It helps more students discover it.
 
-<h1 align="left">🚀 Ultimate Hackathon Starter Pack</h1>
+<h1 align="left">🚀 Hackathon Starter Pack</h1>
 
 
 <p align="center">
@@ -223,7 +223,7 @@ journey
 This repository gets stronger when people add:
 - better examples,
 - faster templates,
-- more useful [api-database.md](api-database.md),
+- more useful API's,
 - stronger pitch frameworks,
 - cleaner diagrams,
 - and battle-tested hacks from real hackathons.
