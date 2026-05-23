@@ -1,5 +1,3 @@
-> ⭐ If this helps you, star the repo. It helps more students discover it.
-
 <h1 align="left">🚀 Hackathon Starter Pack</h1>
 
 > The practical system for going from idea to demo faster, with better decisions, cleaner execution, and less hackathon chaos. Built for students, creators, and teams who want to ship something judges actually remember.
@@ -275,5 +273,4 @@ The goal is simple: help more students ship useful things, present them well, an
 ---
 
 ## Star this repository
-
-If this repo helps you move faster, star it so other builders can find it too.
+> ⭐ If this helps you, star the repo. It helps more students discover it.
