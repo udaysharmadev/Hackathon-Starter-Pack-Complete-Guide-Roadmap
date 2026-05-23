@@ -2,7 +2,6 @@
 ---
 <h1 align="left">🚀 Ultimate Hackathon Starter Kit</h1>
 
----
 
 <p align="center">
   <img src="assets/banner/banner.svg" alt="Ultimate Hackathon Starter Kit banner" />
