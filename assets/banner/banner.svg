@@ -1,0 +1,31 @@
+<svg width="1600" height="480" viewBox="0 0 1600 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ultimate Hackathon Starter Kit">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1600" height="480" fill="url(#g)"/>
+  <circle cx="220" cy="110" r="84" fill="#22c55e" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="1370" cy="120" r="110" fill="#a78bfa" opacity="0.15" filter="url(#blur)"/>
+  <circle cx="1200" cy="370" r="120" fill="#38bdf8" opacity="0.12" filter="url(#blur)"/>
+  <rect x="70" y="78" width="1460" height="324" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="110" y="180" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui" font-size="54" font-weight="800">Ultimate Hackathon Starter Kit</text>
+  <text x="110" y="242" fill="#cbd5e1" font-family="Inter, ui-sans-serif, system-ui" font-size="26" font-weight="500">The most practical hackathon repository on GitHub</text>
+  <text x="110" y="306" fill="#93c5fd" font-family="JetBrains Mono, monospace" font-size="18">ZERO → IDEA → BUILD → DEPLOY → DEMO → WIN</text>
+  <rect x="110" y="338" width="860" height="10" rx="5" fill="url(#accent)"/>
+  <g fill="#e2e8f0" font-family="Inter, ui-sans-serif, system-ui" font-size="20">
+    <text x="1080" y="178">Hackathon OS</text>
+    <text x="1080" y="214">Idea engine</text>
+    <text x="1080" y="250">Build systems</text>
+    <text x="1080" y="286">Deploy playbooks</text>
+    <text x="1080" y="322">Pitch systems</text>
+  </g>
+</svg>
