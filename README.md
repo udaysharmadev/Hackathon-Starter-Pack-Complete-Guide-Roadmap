@@ -1,7 +1,6 @@
 > ⭐ If this helps you, star the repo. It helps more students discover it.
 ---
-> title: Ultimate Hackathon Starter Kit
-> description: The internet's most practical hackathon repository for going from zero to winning demo.
+<h1 align="center">🚀 Ultimate Hackathon Starter Kit</h1>
 ---
 
 <p align="center">
