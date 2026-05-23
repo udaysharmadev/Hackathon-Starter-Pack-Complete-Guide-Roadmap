@@ -14,7 +14,7 @@
   <a href="ROADMAP.md"><img alt="roadmap" src="https://img.shields.io/badge/roadmap-live-purple?style=for-the-badge"></a>
 </p>
 
-# Ultimate Hackathon Starter Kit
+# Ultimate Hackathon Starter Pack
 
 A hackathon should not feel like panic, guesswork, and last-minute chaos.  
 It should feel like a system.
