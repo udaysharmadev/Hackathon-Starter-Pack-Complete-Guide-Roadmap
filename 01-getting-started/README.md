@@ -191,7 +191,7 @@ flowchart TD
     C --> D[Make it look polished]
     D --> E[Show live result]
     E --> F[Explain impact simply]
-```
+
 
 ## Beginner checklist
 
