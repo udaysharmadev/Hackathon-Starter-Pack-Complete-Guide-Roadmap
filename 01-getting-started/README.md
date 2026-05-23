@@ -150,6 +150,16 @@ Most first-time participants imagine hackathons like this:
 Crazy coding marathon → impossible competition → genius developers
 ```
 
+Reality usually looks more like this:
+
+```text
+Small team → practical MVP → quick decisions → live demo → storytelling
+```
+
+You do not need to be the smartest developer.
+
+You need to make better decisions under limited time.
+
 ## Lifecycle of a good hackathon project
 
 ```mermaid
@@ -191,7 +201,7 @@ flowchart TD
     C --> D[Make it look polished]
     D --> E[Show live result]
     E --> F[Explain impact simply]
-
+```
 
 ## Beginner checklist
 
@@ -225,5 +235,12 @@ One painful problem
 One clear workflow
 ↓
 One memorable demo
+```
+
+When confused:
+
+Cut features.
+
+Clarity beats complexity.
 
 </details>
