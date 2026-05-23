@@ -14,7 +14,7 @@
   <a href="ROADMAP.md"><img alt="roadmap" src="https://img.shields.io/badge/roadmap-live-purple?style=for-the-badge"></a>
 </p>
 
-# Ultimate Hackathon Starter Pack
+# Hackathon Starter Pack
 
 A hackathon should not feel like panic, guesswork, and last-minute chaos.  
 It should feel like a system.
@@ -134,7 +134,7 @@ flowchart TD
 ## Repo architecture preview
 
 ```text
-Ultimate-Hackathon-Starter-Kit/
+Hackathon-Starter-Pack/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── ROADMAP.md
@@ -223,7 +223,7 @@ journey
 This repository gets stronger when people add:
 - better examples,
 - faster templates,
-- more useful APIs,
+- more useful [api-database.md](api-database.md),
 - stronger pitch frameworks,
 - cleaner diagrams,
 - and battle-tested hacks from real hackathons.
