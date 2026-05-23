@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="assets/banner/banner.svg" alt="Ultimate Hackathon Starter Kit banner" />
+  <img src="assets/banner/banner.png" alt="Ultimate Hackathon Starter Kit banner" />
 </p>
 
 <p align="center">
