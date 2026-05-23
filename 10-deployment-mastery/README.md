@@ -96,12 +96,6 @@ flowchart TD
     D -->|No| F[Check auth callbacks and routes]
 ```
 
-## Screenshot placeholders
-
-- `assets/screenshots/deploy-success.png`
-- `assets/screenshots/env-vars.png`
-- `assets/screenshots/auth-callbacks.png`
-
 ## Deployment checklist
 
 - [ ] Build passes locally
