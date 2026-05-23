@@ -232,36 +232,226 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ---
 
-## FAQ
+## ❓ Frequently Asked Questions
 
 <details>
-<summary>Is this beginner friendly?</summary>
+<summary><strong>I'm a complete beginner. Can I still join hackathons?</strong></summary>
 
-Yes. The repo starts from the basics, then moves toward advanced workflows only after the foundation is clear.
+Yes.
+
+Many hackathons are beginner-friendly and have tracks for students and first-time builders.
+
+Start with:
+
+`01-getting-started` → `02-find-hackathons` → `03-problem-selection`
+
+Focus on learning and shipping something small.
 
 </details>
 
 <details>
-<summary>Is this only for India?</summary>
+<summary><strong>I don't know coding. Can I still participate?</strong></summary>
 
-No. The workflows are global. The discovery section includes Indian, international, student, startup, and university sources.
+Absolutely.
+
+Hackathons also need:
+
+- Designers
+- Pitchers
+- Researchers
+- Product thinkers
+- Content creators
+- Presenters
+
+You can contribute in UI/UX, presentations, problem research, product strategy, testing, and storytelling.
 
 </details>
 
 <details>
-<summary>Will this help in real hackathons?</summary>
+<summary><strong>How do I find teammates?</strong></summary>
 
-That is the point. Every section is designed around actual shipping pressure, judge behavior, and demo-day constraints.
+Try:
+
+- Discord communities
+- LinkedIn posts
+- Devpost hackathon communities
+- College groups
+- GitHub
+- Twitter/X
+
+See:
+
+`04-team-building`
 
 </details>
 
 <details>
-<summary>Can this be used as a content project too?</summary>
+<summary><strong>How do people actually win hackathons?</strong></summary>
 
-Yes. The structure is highly shareable, visual, and creator-friendly.
+Winning usually comes from:
+
+✅ Solving a real problem  
+✅ Clean UI  
+✅ Fast MVP  
+✅ Strong demo  
+✅ Good storytelling  
+✅ Proper deployment  
+✅ Clear presentation
+
+Most teams lose because they overbuild or choose bad ideas.
+
+See:
+
+`12-winning-strategies`
 
 </details>
 
+<details>
+<summary><strong>Can I use AI tools like ChatGPT, Claude, Gemini, Cursor?</strong></summary>
+
+Yes.
+
+Most hackathon teams now use AI for:
+
+- Coding
+- UI generation
+- Debugging
+- Documentation
+- Idea validation
+- Research
+- Pitch creation
+
+See:
+
+`09-ai-tools`
+
+</details>
+
+<details>
+<summary><strong>How do I choose a winning project idea?</strong></summary>
+
+Don't build random ideas.
+
+Choose ideas that:
+
+- Solve real pain points
+- Are easy to demo
+- Have visible impact
+- Can be built in limited time
+- Have clear storytelling
+
+See:
+
+`03-problem-selection`
+
+</details>
+
+<details>
+<summary><strong>What tech stack should I use?</strong></summary>
+
+Pick speed over complexity.
+
+Recommended:
+
+Frontend → Next.js / React  
+Backend → Supabase / Firebase  
+AI → OpenAI / Gemini  
+Hosting → Vercel / Railway
+
+See:
+
+`05-tech-stack-selection`
+
+</details>
+
+<details>
+<summary><strong>What if my project breaks during submission?</strong></summary>
+
+Always have backups:
+
+- Demo video
+- Screenshots
+- PPT
+- Hosted backup link
+- GitHub repo ready
+
+See:
+
+`10-deployment-mastery`
+
+</details>
+
+<details>
+<summary><strong>Can I participate solo?</strong></summary>
+
+Yes.
+
+Many people win solo.
+
+Choose smaller scope and move fast.
+
+Focus on:
+
+- Simple MVP
+- Strong presentation
+- Clear problem-solving
+
+</details>
+
+<details>
+<summary><strong>How much time should I spend building?</strong></summary>
+
+Rule of thumb:
+
+60% building  
+20% polishing  
+20% demo + pitch
+
+Teams often lose because they spend everything on coding and ignore presentation.
+
+</details>
+
+<details>
+<summary><strong>Do judges check GitHub repositories?</strong></summary>
+
+Sometimes yes.
+
+A clean GitHub repo increases credibility.
+
+Good README, deployment links, screenshots, and documentation can help.
+
+See:
+
+`13-github-for-hackathons`
+
+</details>
+
+<details>
+<summary><strong>Should I build something unique or practical?</strong></summary>
+
+Practical usually wins.
+
+Judges care about:
+
+- Real problem
+- Execution
+- Demo quality
+- Feasibility
+
+Not just "crazy innovation".
+
+</details>
+
+<details>
+<summary><strong>How much should I rely on AI?</strong></summary>
+
+Use AI to accelerate, not replace thinking.
+
+AI helps speed.
+
+Your understanding and execution still matter.
+
+</details>
 ---
 
 ## Open source mission
