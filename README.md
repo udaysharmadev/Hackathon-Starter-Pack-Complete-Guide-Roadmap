@@ -1,6 +1,6 @@
 > ⭐ If this helps you, star the repo. It helps more students discover it.
 ---
-<h1 align="center">🚀 Ultimate Hackathon Starter Kit</h1>
+<h1 align="left">🚀 Ultimate Hackathon Starter Kit</h1>
 
 ---
 
