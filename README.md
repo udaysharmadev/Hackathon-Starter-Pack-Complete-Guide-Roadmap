@@ -128,6 +128,12 @@ It is designed to be:
 
 ---
 
+# What is a Hackathon?
+
+A hackathon is a fast-paced innovation competition where teams build real-world solutions within 24–72 hours. Participants work on software, AI, web, mobile, blockchain, or hardware projects and pitch them to judges.
+
+---
+
 ## Hackathon roadmap
 
 ```mermaid
