@@ -256,6 +256,21 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ---
 
+##Topics
+
+hackathon roadmap github
+hackathon starter pack github
+hackathon guide github
+how to win hackathon github
+smart india hackathon roadmap
+hackathon preparation roadmap
+hackathon guide for beginners
+best github repo for hackathon
+hackathon resources github
+hackathon winning strategy
+
+---
+
 ## ❓ Frequently Asked Questions
 
 <details>
