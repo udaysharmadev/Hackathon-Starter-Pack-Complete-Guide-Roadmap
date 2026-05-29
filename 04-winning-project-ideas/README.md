@@ -1,8 +1,8 @@
 # 04. Winning Project Ideas
 
-Good hackathon ideas are rarely magical. They are usually small, sharp, and well-packaged.
-
-This section gives you categories, MVP scope, and demo logic that make ideas easier to ship.
+Choosing the right hackathon idea is one of the biggest factors in winning. 
+The best hackathon projects solve real-world problems, are demo-friendly, 
+and can be built as an MVP within 24–48 hours.
 
 ## Winning idea formula
 
