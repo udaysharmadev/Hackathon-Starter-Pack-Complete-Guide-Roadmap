@@ -26,7 +26,7 @@
 </p>
 
 # Hackathon Starter Pack
-## Complete Hackathon Roadmap, Guide & Resources to Win Hackathons
+> Complete Hackathon Roadmap, Guide & Resources to Win Hackathons
 
 Complete Hackathon Starter Pack & Roadmap for beginners. Learn how to win hackathons, build projects, find ideas, free APIs, deployment, pitching & GitHub workflow.
 
