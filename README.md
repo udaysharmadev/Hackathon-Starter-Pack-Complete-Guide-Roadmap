@@ -1,4 +1,4 @@
-<h1 align="left">🚀 Hackathon Starter Pack</h1>
+<h1 align="left">🚀 Hackathon Starter Pack: Complete Hackathon Roadmap & Guide to Win Hackathons</h1>
 
 > The practical system for going from idea to demo faster, with better decisions, cleaner execution, and less hackathon chaos. Built for students, creators, and teams who want to ship something judges actually remember.
 
@@ -25,7 +25,7 @@
   </a>
 </p>
 
-# Hackathon Starter Pack
+# Hackathon Starter Pack: Complete Hackathon Roadmap & Guide to Win Hackathons
 > Hackathon Roadmap, Guide & Resources to Win Hackathons
 
 Complete Hackathon Starter Pack & Roadmap for beginners. Learn how to win hackathons, build projects, find ideas, free APIs, deployment, pitching & GitHub workflow.
