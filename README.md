@@ -28,7 +28,7 @@
 # Hackathon Starter Pack
 ## Complete Hackathon Roadmap, Guide & Resources to Win Hackathons
 
-The ultimate hackathon guide for beginners and advanced developers.
+Complete Hackathon Starter Pack & Roadmap for beginners. Learn how to win hackathons, build projects, find ideas, free APIs, deployment, pitching & GitHub workflow.
 
 Learn:
 
