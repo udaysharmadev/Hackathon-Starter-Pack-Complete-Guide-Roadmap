@@ -131,6 +131,79 @@ Ask yourself:
 
 If not, simplify.
 
+## Hackathon vocabulary
+
+You will hear these words a lot. Knowing them makes you sound like you have done this before, even if it is your first time.
+
+| Term | What it means |
+|---|---|
+| MVP | Minimum Viable Product — the smallest working version that proves your idea |
+| Pitch | The 3-5 minute presentation where you explain your project to judges |
+| Demo | A live walkthrough of your working product, not slides |
+| Track | A specific category or theme at a hackathon (AI, health, fintech, etc.) |
+| Sponsor | A company providing prizes, APIs, or resources — they usually want you to use their tools |
+| Hacking | Building your project during the event (not illegal stuff) |
+| Shipping | Getting something live and deployed before the deadline |
+| MVP moment | The single screen or flow that makes judges say "oh, I get it" |
+| Hackathon swag | Free stickers, t-shirts, and gear from sponsors |
+| Mentor | An experienced developer or designer who helps teams during the event |
+| Pivoting | Changing your idea mid-hackathon because you realized it will not work |
+| Scope creep | Keep adding features until you have nothing finished |
+| Demo-ready | Your project works, looks good enough, and you can show it confidently |
+| Repo | Your code repository (usually GitHub) |
+| DevPost / Devfolio | Platforms where hackathons are listed and submissions are tracked |
+| Check-in | Registering when you arrive at a venue |
+| Submissions | The formal entry you upload before the deadline |
+| Judging rubric | The scorecard judges use to evaluate projects |
+| Lightning talk | A very short presentation, usually under 2 minutes |
+| Badging | A system where hackathons track your participation across events |
+| Bounceback | Returning to a hackathon you attended before — organizers love repeat participants |
+| Starter template | A pre-built project skeleton to save setup time |
+| Loom | A popular tool for recording video demos when you cannot present live |
+| Ship it | A casual phrase meaning "just deploy it and move on" |
+
+## Regional hackathon guide
+
+Hackathons look different depending on where you are in the world. Here is what to expect in the major scenes.
+
+### India
+
+India has one of the busiest hackathon ecosystems on the planet. Smart India Hackathon (SIH) is the government-backed giant — hundreds of teams, real problem statements from ministries, and serious prize money. Devfolio is the go-to platform for most Indian hackathons, and it is where you build your profile over time. Events like Hack4Bengal, HackNIT, and Invente attract strong college teams. The culture is very team-oriented and competitive. Mentors are usually available during the event, and sponsor tracks (Google, Microsoft, Amazon) are common. If you are in college in India, you will have no shortage of options.
+
+### United States
+
+MLH (Major League Hacking) runs the official student hackathon circuit across US universities. Events like HackMIT, PennApps, and TreeHacks are well-known and competitive. US hackathons tend to emphasize learning, community, and diversity. Many include workshops, sponsor booths, and networking sessions. The vibe is collaborative, and teams often form on-site. Prizes range from cash to internship offers. Devpost is the primary platform for submissions.
+
+### Europe
+
+Junction (Helsinki) and TechFest (Mumbai, but with European reach) are notable, but Europe also has strong regional events. HackZurich, randomness in Paris, and various EU Horizon hackathons focus on deep tech and social impact. The European scene values innovation and research-grade solutions. Many events are funded by EU programs, so public impact projects do well.
+
+### Online and global
+
+DoraHacks focuses on Web3 and AI builders with bounty-based rewards. ETHGlobal runs blockchain hackathons worldwide. MLH also runs online seasons. Online hackathons are great if you cannot travel, but they require more self-discipline and communication. You need to over-communicate with your team and make your demo extra clear since judges cannot walk up to your booth.
+
+## The first 30 minutes
+
+What you do right after you arrive matters more than you think. Here is a playbook.
+
+**Minutes 1-5: Get oriented.**
+Find the check-in desk. Pick up your badge and swag. Locate the bathroom, the food area, and the power outlets. Seriously — find the outlets first.
+
+**Minutes 5-10: Scope the room.**
+Walk around. See which teams are already set up. Notice who looks organized and who is still figuring things out. If you do not have a team yet, this is when you approach people.
+
+**Minutes 10-15: Connect to wifi and test it.**
+Do this immediately. If the wifi is bad, you need to know now so you can switch to mobile hotspot. Clone your repos, pull your dependencies, and make sure your environment works.
+
+**Minutes 15-20: Set up your workspace.**
+Plug in your laptop. Open your code editor. Set up your terminal. If you are at a venue, put your bag under your chair so it does not get in the way.
+
+**Minutes 20-25: Meet your neighbors.**
+Introduce yourself to the teams sitting near you. Ask what they are building. This is not just being friendly — you might need to borrow a charger, get a recommendation, or find a last-minute teammate.
+
+**Minutes 25-30: Lock in your idea.**
+By now you should have a rough idea of what you are building. Write it down in one sentence. Share it with your team. If you are solo, send it to a friend for a sanity check. The faster you commit, the more time you have to build.
+
 ## Beginner myths
 
 | Myth | Reality |

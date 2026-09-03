@@ -109,3 +109,98 @@ The best hackathons often appear through:
 - and organizer relationships.
 
 Being visible in builder spaces matters more than most students realize.
+
+## Monthly hackathon calendar
+
+Staying organized is half the battle. Here is a simple system to track hackathons month by month.
+
+Create a spreadsheet with these columns:
+
+| Month | Hackathon name | Platform | Deadline | Event dates | Track/theme | Prize pool | Status | Link |
+|---|---|---|---|---|---|---|---|---|
+| Jan | ExampleHack | Devpost | Jan 15 | Feb 1-2 | AI | $5,000 | Applied | https://... |
+
+**How to use it:**
+- Check Devfolio, Devpost, and MLH every Sunday night. Spend 10 minutes.
+- Add any interesting hackathons to the sheet immediately.
+- Set a calendar reminder 7 days before each deadline.
+- Color code: green for applied, yellow for interested, red for missed.
+- At the start of each month, review what is coming up and pick 1-2 to focus on.
+
+Do not apply to everything. Pick events that match your skills and interests. Quality beats quantity.
+
+## Platform walkthrough
+
+### Devfolio step by step
+
+1. Go to devfolio.co and create an account using your GitHub or email.
+2. Complete your profile — add a bio, profile photo, and your best project links.
+3. Browse hackathons on the main page. Use filters for "upcoming" and "online" or "offline."
+4. Click into a hackathon to see tracks, sponsors, prizes, and deadlines.
+5. Hit "Apply" before the deadline. Some events require a short application essay — write a few sentences about why you want to participate and what you plan to build.
+6. After applying, join the hackathon's Discord server (usually linked on the event page).
+7. When the event starts, submit your project through the Devfolio dashboard before the deadline.
+
+**Pro tip:** Hackathons on Devfolio fill up fast. Apply as soon as they open if the event is popular.
+
+### Devpost step by step
+
+1. Go to devpost.com and sign up with your email or GitHub.
+2. Fill out your profile — judges sometimes look at your Devpost history.
+3. Use the "Hackathons" tab to browse. Filter by "open," "online," or specific themes.
+4. Read the hackathon page carefully — each event has specific rules, tracks, and submission requirements.
+5. Click "Join Hackathon" to register.
+6. When you are ready to submit, go to your dashboard, click "Submit Project," and fill out the form. You will need a project name, description, screenshots, a video demo link, and your GitHub repo.
+7. Double-check your submission before the deadline. Late submissions usually do not count.
+
+**Pro tip:** Devpost judges often watch your demo video first. Make it under 2 minutes and show the product working, not slides.
+
+## Hackathon discovery automation
+
+You do not need to manually check every platform every day. Set up automation and let hackathons come to you.
+
+### RSS feeds
+
+Many hackathon platforms support RSS. Add these to a feed reader like Feedly or Inoreader:
+
+- Devfolio hackathons page (check if RSS is available via the site)
+- Devpost hackathon listings
+- MLH event feed
+- Hacker News "Who is hiring" threads sometimes mention hackathons
+
+### Discord bots and servers
+
+Join these Discord communities and enable notifications:
+
+- **MLH Discord** — official announcements for the student hackathon circuit
+- **Devfolio Discord** — India-focused hackathon updates
+- **Hack Club HQ** — student maker community with event announcements
+- **DoraHacks Discord** — Web3 and AI hackathons
+- **Local university CS servers** — often post regional events first
+
+Most Discord servers have a dedicated "#events" or "#hackathons" channel. Turn on notifications for that channel only.
+
+### Twitter and X lists
+
+Create a private Twitter list with these accounts:
+
+- @mlaboratories (MLH)
+- @hackaboreaDevfolio
+- @devaboreaDevpost
+- @daborahacks
+- @ethglobal
+- Your local university CS department accounts
+- Accounts of hackathon organizers you have participated with before
+
+Check the list once a day. Organizers often announce new events on Twitter before anywhere else.
+
+### Google Alerts
+
+Set up alerts for:
+
+- "hackathon 2026 registration"
+- "student hackathon [your city]"
+- "[sponsor name] hackathon"
+- "AI hackathon prizes"
+
+This takes 10 minutes to set up and saves you hours of searching later.
