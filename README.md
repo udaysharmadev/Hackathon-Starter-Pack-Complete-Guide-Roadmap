@@ -30,7 +30,7 @@
   <img alt="templates" src="https://img.shields.io/badge/150%2B_Templates-📋-blue?style=flat-square">
   <img alt="apis" src="https://img.shields.io/badge/50%2B_APIs-🔌-green?style=flat-square">
   <img alt="resources" src="https://img.shields.io/badge/42%2B_Curated_Resources-📚-orange?style=flat-square">
-  <img alt="sections" src="https://img.shields.io/badge/22_Complete_Sections-🗂️-red?style=flat-square">
+  <img alt="sections" src="https://img.shields.io/badge/30_Complete_Sections-🗂️-red?style=flat-square">
 </p>
 
 <p align="center">
@@ -127,6 +127,14 @@ flowchart LR
 | 20 | [Judging Insider](20-judging-insider/README.md) | How judges actually score — from someone who's been one | 12 min | 🔴 |
 | 21 | [Legal & Business](21-legal-business/README.md) | IP ownership, sponsor terms, and post-hackathon rights | 8 min | 🟡 |
 | 22 | [Post-Hackathon](22-post-hackathon/README.md) | What to do after: keep building, pitch investors, grow | 10 min | 🟡 |
+| 23 | [Hackathon Safety](23-hackathon-safety/README.md) | Burnout prevention, nutrition, ergonomics, mental health | 8 min | 🟢 |
+| 24 | [Non-Coder Guide](24-non-coder-guide/README.md) | How to contribute without writing code — 7 roles explained | 10 min | 🟢 |
+| 25 | [Online Hackathon](25-online-hackathon/README.md) | Remote survival, async coordination, virtual demos | 10 min | 🟡 |
+| 26 | [Sponsor Mastery](26-sponsor-mastery/README.md) | How to align with sponsors and win sponsor prizes | 8 min | 🟡 |
+| 27 | [Database Deep Dive](27-database-deep-dive/README.md) | SQL vs NoSQL, schema design, real-time patterns | 12 min | 🔴 |
+| 28 | [Testing at Hackathons](28-testing-at-hackathons/README.md) | Quick QA, demo data, "works on my machine" prevention | 8 min | 🟢 |
+| 29 | [Storytelling](29-storytelling/README.md) | Narrative frameworks, emotional arc, demo moments | 12 min | 🔴 |
+| 30 | [Monetization](30-monetization/README.md) | MVP to startup, pricing, investors, accelerators | 10 min | 🟡 |
 
 ---
 
@@ -348,7 +356,7 @@ flowchart LR
 ## What's Inside the Box
 
 <details>
-<summary><strong>📦 17 Complete Sections</strong></summary>
+<summary><strong>📦 30 Complete Sections</strong></summary>
 
 | # | Section | What's Covered |
 |---|---|---|
@@ -374,6 +382,14 @@ flowchart LR
 | 20 | Judging Insider | Judge psychology, scoring rubrics, demo booth vs stage pitch |
 | 21 | Legal & Business | IP ownership, sponsor terms, team agreements, licensing |
 | 22 | Post-Hackathon | Keep building, approach investors, maintain momentum |
+| 23 | Hackathon Safety | Burnout prevention, nutrition, ergonomics, mental health |
+| 24 | Non-Coder Guide | Research, PM, pitch, design roles for non-coders |
+| 25 | Online Hackathon | Remote survival, async coordination, virtual demos |
+| 26 | Sponsor Mastery | Align with sponsors, use their APIs, win sponsor prizes |
+| 27 | Database Deep Dive | SQL vs NoSQL, schema design, real-time patterns |
+| 28 | Testing at Hackathons | Quick QA, demo data, environment parity |
+| 29 | Storytelling | Narrative frameworks, emotional arc, demo moments |
+| 30 | Monetization | MVP-to-startup, pricing, investors, accelerators |
 
 </details>
 
