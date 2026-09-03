@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — Hackathon Starter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <nav class="bg-white border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <span class="font-bold text-xl text-gray-900">HackathonApp</span>
+            <div class="flex items-center gap-4">
+                <span class="text-sm text-gray-600">{{ user_email }}</span>
+                <button onclick="handleLogout()" class="text-sm text-gray-600 hover:text-gray-900 font-medium">
+                    Logout
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-16">
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Welcome back!</h1>
+            <p class="text-gray-600">This is your protected dashboard. Build something awesome.</p>
+        </div>
+
+        <!-- Example: Notes Section -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">Quick Notes</h2>
+            <form id="note-form" class="flex gap-3 mb-4">
+                <input type="text" id="note-input" placeholder="Write a note..."
+                    class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none">
+                <button type="submit"
+                    class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition">
+                    Save
+                </button>
+            </form>
+            <div id="notes-list" class="space-y-2">
+                <p class="text-gray-400 text-sm">Loading notes...</p>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <div class="text-3xl mb-2">📝</div>
+                <h3 class="font-semibold text-gray-900">Your Notes</h3>
+                <p id="note-count" class="text-2xl font-bold text-blue-600">0</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <div class="text-3xl mb-2">🔥</div>
+                <h3 class="font-semibold text-gray-900">Streak</h3>
+                <p class="text-2xl font-bold text-orange-500">1 day</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <div class="text-3xl mb-2">⚡</div>
+                <h3 class="font-semibold text-gray-900">Status</h3>
+                <p class="text-2xl font-bold text-green-600">Building</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Firebase config
+        const firebaseConfig = {
+            apiKey: "{{ config.FIREBASE_API_KEY }}",
+            authDomain: "{{ config.FIREBASE_AUTH_DOMAIN }}",
+            projectId: "{{ config.FIREBASE_PROJECT_ID }}",
+            storageBucket: "{{ config.FIREBASE_STORAGE_BUCKET }}",
+            messagingSenderId: "{{ config.FIREBASE_MESSAGING_SENDER_ID }}",
+            appId: "{{ config.FIREBASE_APP_ID }}"
+        };
+
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        const auth = firebase.auth();
+
+        let notes = [];
+
+        async function loadNotes() {
+            try {
+                const res = await fetch("/api/user-data");
+                if (res.ok) {
+                    const data = await res.json();
+                    notes = data.notes || [];
+                    renderNotes();
+                }
+            } catch (err) {
+                console.error("Failed to load notes:", err);
+            }
+        }
+
+        function renderNotes() {
+            const list = document.getElementById("notes-list");
+            document.getElementById("note-count").textContent = notes.length;
+
+            if (notes.length === 0) {
+                list.innerHTML = '<p class="text-gray-400 text-sm">No notes yet. Add one above!</p>';
+                return;
+            }
+
+            list.innerHTML = notes.map((note, i) => `
+                <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                    <span class="text-gray-800">${escapeHtml(note)}</span>
+                    <button onclick="deleteNote(${i})" class="text-red-500 hover:text-red-700 text-sm font-medium">Delete</button>
+                </div>
+            `).join("");
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        document.getElementById("note-form").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const input = document.getElementById("note-input");
+            const note = input.value.trim();
+            if (!note) return;
+
+            notes.push(note);
+            input.value = "";
+
+            try {
+                await fetch("/api/save-data", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ notes })
+                });
+                renderNotes();
+            } catch (err) {
+                console.error("Failed to save:", err);
+            }
+        });
+
+        async function deleteNote(index) {
+            notes.splice(index, 1);
+            try {
+                await fetch("/api/save-data", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ notes })
+                });
+                renderNotes();
+            } catch (err) {
+                console.error("Failed to save:", err);
+            }
+        }
+
+        async function handleLogout() {
+            await auth.signOut();
+            await fetch("/api/logout", { method: "POST" });
+            window.location.href = "/";
+        }
+
+        // Load notes on page load
+        loadNotes();
+    </script>
+</body>
+</html>

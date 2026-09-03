@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Starter — Flask + Firebase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <nav class="bg-white border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <span class="font-bold text-xl text-gray-900">HackathonApp</span>
+            <div id="nav-auth"></div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-bold text-gray-900 mb-6">Hackathon Starter</h1>
+            <p class="text-xl text-gray-600 mb-8">Flask + Firebase boilerplate. Get building in minutes.</p>
+        </div>
+
+        <!-- Auth Forms -->
+        <div id="auth-section" class="max-w-md mx-auto bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+            <h2 class="text-2xl font-bold text-center text-gray-900 mb-6" id="auth-title">Sign In</h2>
+
+            <div id="error-message" class="hidden bg-red-50 text-red-700 p-3 rounded-lg mb-4 text-sm"></div>
+
+            <form id="auth-form" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" id="email" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        placeholder="you@example.com">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                    <input type="password" id="password" required minlength="6"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        placeholder="••••••••">
+                </div>
+                <button type="submit" id="auth-submit"
+                    class="w-full bg-blue-600 text-white py-2 rounded-lg font-medium hover:bg-blue-700 transition disabled:opacity-50">
+                    Sign In
+                </button>
+            </form>
+
+            <div class="mt-4 relative">
+                <div class="absolute inset-0 flex items-center">
+                    <div class="w-full border-t border-gray-300"></div>
+                </div>
+                <div class="relative flex justify-center text-sm">
+                    <span class="bg-white px-2 text-gray-500">or continue with</span>
+                </div>
+            </div>
+
+            <div class="mt-4 grid grid-cols-2 gap-3">
+                <button onclick="signInWithGoogle()"
+                    class="flex items-center justify-center gap-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
+                    Google
+                </button>
+                <button onclick="signInWithGitHub()"
+                    class="flex items-center justify-center gap-2 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
+                    GitHub
+                </button>
+            </div>
+
+            <p class="mt-6 text-center text-sm text-gray-600">
+                <span id="toggle-text">Don't have an account?</span>
+                <button onclick="toggleMode()" id="toggle-btn" class="text-blue-600 font-medium hover:underline">Sign up</button>
+            </p>
+        </div>
+    </main>
+
+    <script>
+        // Firebase config — replace with your own
+        const firebaseConfig = {
+            apiKey: "{{ config.FIREBASE_API_KEY }}",
+            authDomain: "{{ config.FIREBASE_AUTH_DOMAIN }}",
+            projectId: "{{ config.FIREBASE_PROJECT_ID }}",
+            storageBucket: "{{ config.FIREBASE_STORAGE_BUCKET }}",
+            messagingSenderId: "{{ config.FIREBASE_MESSAGING_SENDER_ID }}",
+            appId: "{{ config.FIREBASE_APP_ID }}"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+
+        let isSignUp = false;
+
+        function showError(msg) {
+            const el = document.getElementById("error-message");
+            el.textContent = msg;
+            el.classList.remove("hidden");
+        }
+
+        function hideError() {
+            document.getElementById("error-message").classList.add("hidden");
+        }
+
+        function toggleMode() {
+            isSignUp = !isSignUp;
+            document.getElementById("auth-title").textContent = isSignUp ? "Create Account" : "Sign In";
+            document.getElementById("auth-submit").textContent = isSignUp ? "Sign Up" : "Sign In";
+            document.getElementById("toggle-text").textContent = isSignUp ? "Already have an account?" : "Don't have an account?";
+            document.getElementById("toggle-btn").textContent = isSignUp ? "Sign in" : "Sign up";
+            hideError();
+        }
+
+        document.getElementById("auth-form").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            hideError();
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const btn = document.getElementById("auth-submit");
+            btn.disabled = true;
+            btn.textContent = "Loading...";
+
+            try {
+                let result;
+                if (isSignUp) {
+                    result = await auth.createUserWithEmailAndPassword(email, password);
+                    alert("Check your email for verification!");
+                } else {
+                    result = await auth.signInWithEmailAndPassword(email, password);
+                }
+                const token = await result.user.getIdToken();
+                await fetch("/api/verify-token", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ idToken: token })
+                });
+                window.location.href = "/dashboard";
+            } catch (err) {
+                showError(err.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = isSignUp ? "Sign Up" : "Sign In";
+            }
+        });
+
+        async function signInWithGoogle() {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            try {
+                const result = await auth.signInWithPopup(provider);
+                const token = await result.user.getIdToken();
+                await fetch("/api/verify-token", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ idToken: token })
+                });
+                window.location.href = "/dashboard";
+            } catch (err) {
+                showError(err.message);
+            }
+        }
+
+        async function signInWithGitHub() {
+            const provider = new firebase.auth.GithubAuthProvider();
+            try {
+                const result = await auth.signInWithPopup(provider);
+                const token = await result.user.getIdToken();
+                await fetch("/api/verify-token", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ idToken: token })
+                });
+                window.location.href = "/dashboard";
+            } catch (err) {
+                showError(err.message);
+            }
+        }
+
+        // Check if already logged in
+        auth.onAuthStateChanged(async (user) => {
+            if (user) {
+                const token = await user.getIdToken();
+                const res = await fetch("/api/verify-token", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ idToken: token })
+                });
+                if (res.ok) window.location.href = "/dashboard";
+            }
+        });
+    </script>
+</body>
+</html>
