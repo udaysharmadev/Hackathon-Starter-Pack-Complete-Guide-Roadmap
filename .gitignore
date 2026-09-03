@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Implementation plan (internal, not for public)
+IMPLEMENTATION-PLAN.md
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+.cache/
+
+# Misc
+*.log
+.env.local
+.env.*.local
