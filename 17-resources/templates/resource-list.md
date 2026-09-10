@@ -53,7 +53,7 @@ Curated tools, frameworks, APIs, and communities for hackathon builders. Each en
 | Name | Link | What It Does | Free Tier | Best Use Case | Rating | Alternative |
 |------|------|-------------|-----------|---------------|--------|-------------|
 | OpenAI API | https://platform.openai.com | GPT-4, DALL-E, Whisper, embeddings | $5 free credit (new accounts) | Text generation, vision, embeddings | 5/5 | Anthropic Claude |
-| Anthropic Claude | https://console.anthropic.com | Claude 3.5 Sonnet, Opus, Haiku | Free tier available | Long-context analysis, coding | 5/5 | OpenAI |
+| Anthropic Claude | https://console.anthropic.com | current Claude models (names change — check console.anthropic.com) | Free tier available | Long-context analysis, coding | 5/5 | OpenAI |
 | Google Gemini | https://ai.google.dev | Google's multimodal AI models | Free tier with rate limits | Multimodal tasks (text + image + audio) | 4/5 | OpenAI |
 | Hugging Face | https://huggingface.co | Open source model hub + inference API | Free tier for inference | Running open source models | 4/5 | Replicate |
 | Replicate | https://replicate.com | Run open source models via API | Free tier available | Image gen, speech, niche models | 4/5 | Hugging Face |

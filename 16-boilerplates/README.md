@@ -2,7 +2,17 @@
 
 Boilerplates reduce friction. They help teams start from structure instead of chaos.
 
-## What this section includes
+## Working starters (verified Sept 2026)
+
+- `nextjs-supabase/` — Next.js + Supabase auth, layout, deploy configs
+- `flask-firebase/` — Flask + Firebase, minimal templates
+- `fastapi-supabase/` — FastAPI + CORS + `/healthz` + fixture mode (`?demo=1`)
+
+> The folder patterns below are starting sketches, not finished apps.
+> Pick the closest working starter above, rename it, cut everything outside
+> the golden-path demo.
+
+## What this section includes (patterns)
 
 - AI SaaS
 - Dashboard

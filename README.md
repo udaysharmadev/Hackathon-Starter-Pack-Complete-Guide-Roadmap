@@ -21,20 +21,20 @@
   <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack/blob/main/ROADMAP.md">
     <img alt="roadmap" src="https://img.shields.io/badge/Roadmap-Live-purple?style=for-the-badge">
   </a>
-  <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack">
-    <img alt="google ranking" src="https://img.shields.io/badge/Ranking-#1_on_Google-gold?style=for-the-badge">
-  </a>
 </p>
 
 <p align="center">
-  <img alt="templates" src="https://img.shields.io/badge/150%2B_Templates-📋-blue?style=flat-square">
-  <img alt="apis" src="https://img.shields.io/badge/50%2B_APIs-🔌-green?style=flat-square">
-  <img alt="resources" src="https://img.shields.io/badge/42%2B_Curated_Resources-📚-orange?style=flat-square">
+  <img alt="templates" src="https://img.shields.io/badge/16_Templates-📋-blue?style=flat-square">
+  <img alt="apis" src="https://img.shields.io/badge/40%2B_APIs-🔌-green?style=flat-square">
+  <img alt="resources" src="https://img.shields.io/badge/130%2B_Curated_Links-📚-orange?style=flat-square">
   <img alt="sections" src="https://img.shields.io/badge/30_Complete_Sections-🗂️-red?style=flat-square">
 </p>
 
 <p align="center">
-  <em>Used by students from 50+ colleges across 20+ countries</em>
+  <em>An open-source hackathon playbook for students — verified Sept 2026. Counts below reflect the actual repo.</em>
+</p>
+<p align="center">
+  <sub>Last verified: 2026-09-10 • 72 markdown files • ~19,800 lines • 25 Mermaid diagrams • 16 templates • 17 examples</sub>
 </p>
 
 ---
@@ -45,10 +45,10 @@ Every hackathon guide tells you WHAT to do. This one tells you HOW — with temp
 
 | Feature | This Repo | Other Guides |
 |---|---|---|
-| Actionable checklists | ✅ 150+ | ❌ |
-| Copy-paste templates | ✅ 50+ | ❌ |
-| Real API database | ✅ 42 APIs | ❌ |
-| Mermaid diagrams | ✅ 50+ | ❌ |
+| Actionable checklists | ✅ 16 templates + scorecards | ❌ |
+| Copy-paste templates | ✅ 17 worked examples | ❌ |
+| Real API database | ✅ 40+ APIs | ❌ |
+| Mermaid diagrams | ✅ 25+ | ❌ |
 | Hour-by-hour build plans | ✅ | ❌ |
 | Problem scoring system | ✅ | ❌ |
 | Judge psychology deep-dive | ✅ | ❌ |
@@ -110,7 +110,7 @@ flowchart LR
 | 03 | [Problem Selection Engine](03-problem-selection-engine/README.md) | Find real problems worth building — with a scoring system | 12 min | 🟡 |
 | 04 | [Winning Project Ideas](04-winning-project-ideas/README.md) | Explore ideas by category with strong MVP scope | 15 min | 🟡 |
 | 05 | [Tech Stack Chooser](05-tech-stack-chooser/README.md) | Pick the fastest stack for your project in 5 minutes | 10 min | 🟢 |
-| 06 | [Free APIs Mega List](06-free-apis-mega-list/README.md) | Access 42+ APIs you can use without paying | 8 min | 🟢 |
+| 06 | [Free APIs Mega List](06-free-apis-mega-list/README.md) | Access 40+ APIs you can use without paying | 8 min | 🟢 |
 | 07 | [Vibe Coding Tools](07-vibe-coding-tools/README.md) | Combine AI tools without chaos — Cursor, Copilot, Claude | 10 min | 🟡 |
 | 08 | [Build Fast Framework](08-build-fast-framework/README.md) | Ship an MVP in hours, not days | 12 min | 🟡 |
 | 09 | [UI UX Fast Track](09-ui-ux-fast-track/README.md) | Make your project look premium quickly | 10 min | 🟡 |
@@ -154,7 +154,7 @@ Stop guessing. This engine scores ideas on impact, feasibility, and judge appeal
 - **Decision flowchart** — narrow your idea from 20 possibilities to 1 in one page
 - **"Would I use this?" test** — the simplest validation method that actually works
 
-**Why it matters:** Teams that spend 30 minutes on problem selection are 3x more likely to place than teams that jump straight to coding.
+**Why it matters:** Teams that spend 30 minutes on problem selection tend to waste less build time than teams that jump straight to coding.
 
 [→ Open Problem Selection Engine](03-problem-selection-engine/README.md)
 
@@ -365,7 +365,7 @@ flowchart LR
 | 03 | Problem Selection Engine | Scoring matrix, problem validation, red flag patterns |
 | 04 | Winning Project Ideas | AI/ML, Web3, Sustainability, HealthTech, FinTech, EdTech ideas |
 | 05 | Tech Stack Chooser | Frontend/backend/AI/hosting comparisons, speed-optimized picks |
-| 06 | Free APIs Mega List | 42+ APIs across AI, finance, weather, sports, maps, and more |
+| 06 | Free APIs Mega List | 40+ APIs across AI, finance, weather, sports, maps, and more |
 | 07 | Vibe Coding Tools | Cursor, Copilot, Claude, ChatGPT, Gemini integration strategies |
 | 08 | Build Fast Framework | Hour-by-hour plan, MVP checklist, rapid prototyping methods |
 | 09 | UI UX Fast Track | Tailwind tricks, component libraries, responsive design shortcuts |
@@ -394,7 +394,9 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>📋 150+ Templates</strong></summary>
+<summary><strong>📋 16 Templates + 17 Worked Examples</strong></summary>
+
+> Verified Sept 2026: 16 markdown templates in `*/templates/` + 17 worked examples in `*/examples/`. The list below shows what each template covers.
 
 ### Planning Templates
 - Project idea brainstorming worksheets
@@ -442,7 +444,9 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>🔌 42+ APIs by Category</strong></summary>
+<summary><strong>🔌 40+ APIs by Category</strong></summary>
+
+> Verified Sept 2026: 41 rows in `06-free-apis-mega-list/api-database.md`. Full walkthroughs in `06-free-apis-mega-list/README.md`.
 
 | Category | APIs | Use Case |
 |---|---|---|
@@ -460,7 +464,9 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>📊 50+ Mermaid Diagrams</strong></summary>
+<summary><strong>📊 25+ Mermaid Diagrams</strong></summary>
+
+> Verified Sept 2026: 25 fenced ```mermaid blocks across 72 markdown files.
 
 - Hackathon lifecycle flowcharts
 - Tech stack decision trees
@@ -812,14 +818,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 <details>
 <summary><strong>❓ How often is this guide updated?</strong></summary>
 
-Regularly. The repo is actively maintained with:
+When maintainers or contributors land a change. Recent focus areas:
 
 - New API entries as they become available
 - Updated deployment guides as platforms change
 - Fresh project ideas based on trending topics
-- Community contributions reviewed weekly
+- Community contributions reviewed as time allows
 
-Star the repo to get notified of major updates.
+Star the repo to get notified of major updates. Last full verification: 2026-09-10.
 
 </details>
 
@@ -842,7 +848,7 @@ The content in this guide is age-agnostic — the strategies work for everyone.
 
 Not yet. But the guide is designed to be highly visual:
 
-- **50+ Mermaid diagrams** render as images on GitHub
+- **25+ Mermaid diagrams** render as images on GitHub
 - **Tables** make comparisons instant
 - **Flowcharts** show decision paths clearly
 - **Step-by-step guides** are scannable in seconds
@@ -901,5 +907,5 @@ If this project helps you, the best thing you can do is:
 
 <p align="center">
   <sub>Made with ❤️ for hackathon builders everywhere</sub><br>
-  <sub>MIT License • Contributions Welcome • Ranking #1 on Google</sub>
+  <sub>MIT License • Contributions Welcome • Last verified 2026-09-10</sub>
 </p>

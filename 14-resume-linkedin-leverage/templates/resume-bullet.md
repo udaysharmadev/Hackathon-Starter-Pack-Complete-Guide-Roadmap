@@ -196,7 +196,7 @@ Before posting, spend 5 minutes finding the right hashtags:
 
 - **Post within 48 hours of the hackathon.** Momentum matters. The story is fresh, your emotions are real.
 - **Tag your teammates.** They'll reshare, doubling your reach.
-- **Include a demo GIF or video.** Posts with video get 3x more engagement on LinkedIn.
+- **Include a demo GIF or video.** Posts with video tend to get more engagement on LinkedIn.
 - **Ask a question at the end.** "What's your biggest hackathon lesson?" drives comments.
 - **Reply to every comment within 24 hours.** The algorithm rewards conversation.
 - **Share to relevant LinkedIn Groups.** "Hackathon Enthusiasts," your university's alumni group, your tech stack's community group.

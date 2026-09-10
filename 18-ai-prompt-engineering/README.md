@@ -717,7 +717,7 @@ If one AI tool fails, try another. Claude, GPT-4, and Gemini have different stre
 - Use `@codebase` to let Cursor search your entire project for context
 - The `.cursorrules` file is gold — add your project conventions there
 - Use Cmd+K for inline edits, Cmd+L for chat
-- Composer mode for multi-file changes: describe what you want across files
+- Agent / multi-file edit mode: describe what you want across files (mode names change — use whatever your editor currently calls it)
 
 **Power Prompt:**
 ```
@@ -916,3 +916,9 @@ Here's the real talk: if you're hallucinating bugs that don't exist, take a 20-m
 Prompt engineering at hackathons isn't about being clever with words. It's about being clear about what you need. The best hackathon prompt is one that produces working code on the first try. That means being specific, providing context, and iterating fast.
 
 Master this, and AI becomes the teammate that never sleeps, never gets frustrated, and never needs a coffee break. Use it wisely, and you'll ship things that would've been impossible 24 hours ago.
+
+---
+
+> Model names and capabilities change fast. Last verified: 2026-09-10.
+> The prompt patterns above are model-agnostic — swap in whatever frontier
+> model your team has access to and re-run `tools/pitch-timer.py` for timing.

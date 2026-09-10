@@ -1,0 +1,18 @@
+name: checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Internal link check
+        run: python3 tools/check-links.py
+      - name: CLI smoke tests
+        run: |
+          python3 tools/api-finder.py --need "auth realtime" | head -n 5
+          python3 tools/stack-advisor.py --quick web-ai
+          echo "x" | python3 tools/pitch-timer.py | head -n 5
+          python3 -c "import ast; [ast.parse(open(f).read()) for f in ['tools/api-finder.py','tools/stack-advisor.py','tools/readme-generator.py','tools/check-links.py','16-boilerplates/fastapi-supabase/main.py']]; print('syntax OK')"

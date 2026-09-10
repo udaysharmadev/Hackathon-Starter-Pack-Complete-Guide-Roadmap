@@ -39,7 +39,16 @@
 - [x] Assets structure (screenshots/, gifs/, diagrams/, icons/)
 - [x] Main README updated with all 30 sections
 
-## Phase 4, Community & Growth (Future)
+## Phase 4, Verification & Credibility (Done 2026-09-10)
+- [x] Full stat recount — README claims corrected to verified numbers
+- [x] Thin sections expanded (10 deployment quickstarts + backup plan, 11 3-min structure + Q&A bank)
+- [x] Stale AI content refreshed (07 agent loop + MCP guardrails, 05 AI-agent add-on, 06 cost + verification notes)
+- [x] Unstop added to discovery (02); scope-killer checklist added (04)
+- [x] 3 new CLI tools: api-finder.py, stack-advisor.py, readme-generator.py (all stdlib-only, smoke-tested)
+- [x] Engineering: tools/check-links.py (53 links OK), .github/workflows/checks.yml CI, fastapi-supabase starter, removed 694K duplicate banner, fixed .gitignore contradiction
+- [x] ROADMAP stats corrected below
+
+## Phase 5, Community & Growth (Future)
 - [ ] Discord server setup
 - [ ] Monthly newsletter template
 - [ ] Winning project showcase system
@@ -47,23 +56,23 @@
 - [ ] YouTube companion videos
 - [ ] Searchable docs site (VitePress/Docusaurus)
 - [ ] Downloadable pitch deck templates
-- [ ] More boilerplate starters (Flutter, FastAPI, React+PocketBase)
+- [ ] More boilerplate starters (Flutter, React+PocketBase — FastAPI done)
 - [ ] Community idea bank
 
-## Final Stats
+## Final Stats (verified 2026-09-10 — recount before quoting)
 
 | Metric | Value |
 |---|---|
 | Total sections | 30 |
-| Total files | 90+ |
-| Total markdown lines | 17,000+ |
-| Templates | 15 (all expanded) |
-| Examples | 17 (all expanded) |
-| Boilerplate code | 18 files (Next.js + Flask) |
-| CLI tools | 3 (tracker, scorer, timer) |
-| Curated resources | 100+ |
-| APIs documented | 42+ |
-| Mermaid diagrams | 50+ |
+| Total files | ~370 (72 markdown) |
+| Total markdown lines | ~19,800+ |
+| Templates (md in `*/templates/`) | 16 |
+| Examples (files in `*/examples/`) | 17 |
+| Boilerplate starters | 3 (Next.js + Flask + FastAPI) |
+| CLI tools | 7 (tracker, scorer, timer, api-finder, stack-advisor, readme-generator, check-links) |
+| Curated links (17-resources) | ~130 unique URLs |
+| APIs in database table | 41 rows |
+| Mermaid blocks | 25 |
 
 ## Principles
 

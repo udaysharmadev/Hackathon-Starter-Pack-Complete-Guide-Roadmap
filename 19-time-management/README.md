@@ -16,7 +16,7 @@ Studies on hackathon outcomes consistently show the same pattern:
 
 - Teams that demo a working product win 85%+ of the time, regardless of idea complexity
 - The average team spends 40% of their time on features that don't make it to the demo
-- Teams that ship MVP in the first 12 hours of a 24-hour hackathon are 3x more likely to win
+- Teams that ship an MVP in the first half of the event leave more time for polish and pitch practice
 - The most common reason for losing: "We ran out of time" (62% of non-winning teams)
 
 ### The Competitive Edge

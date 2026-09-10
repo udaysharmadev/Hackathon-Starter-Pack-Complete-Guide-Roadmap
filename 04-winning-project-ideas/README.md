@@ -197,3 +197,18 @@ Generic learning platforms are everywhere. What is not everywhere is truly perso
 Tech for tier-2 and tier-3 cities, for farmers, for small shopkeepers, for people with limited connectivity — this is where the real impact is. Offline-first apps, multilingual interfaces, SMS-based tools, simple WhatsApp integrations.
 
 **Hackathon angle:** Show the tool working on a low-end phone or with a bad internet connection. That is a powerful demo moment.
+
+## Scope-killer checklist (run before you commit)
+
+Score 1 point per YES. If you score 3+, cut scope before coding:
+
+- [ ] Needs more than 2 user roles for the demo to make sense
+- [ ] Needs realtime + payments + AI in the same golden path
+- [ ] Core value requires training a custom model from scratch
+- [ ] Demo needs hardware you don't already have in the room
+- [ ] "Admin panel" is required before the user-facing flow works
+- [ ] You can't describe the 90-second demo click-by-click right now
+
+Fix by: one user → one task → one result. Move everything else to the
+"What's next" slide. See `03-problem-selection-engine/` for the scoring
+rubric and `tools/idea-scorer.py` to score the idea numerically.

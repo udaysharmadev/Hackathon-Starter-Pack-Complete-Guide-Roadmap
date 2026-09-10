@@ -251,3 +251,22 @@ If your hackathon project needs a mobile app, you have three realistic options.
 | Hackathon recommendation | Use if team knows Dart | Use if team knows React | Best default choice |
 
 **Hackathon advice:** If you are building a mobile app for a hackathon, use Expo. It is the fastest path from zero to a working app on a real phone. You can always eject later if you need deep native features — but for most hackathon demos, you will not.
+
+## AI-agent / RAG add-on (2026 default)
+
+If the project needs AI, keep it a thin layer on the stack above — don't
+rebuild the app around the model:
+
+- Model access: OpenRouter, Gemini API, or Groq (see `06-free-apis-mega-list/`).
+- Retrieval: Supabase `pgvector`, or a managed vector store only if the demo
+  needs it. A fixtures file beats a broken vector DB on stage.
+- Agent loop: one tool-call loop with max 3–5 steps, visible in the UI
+  (show "thinking → tool → result"). Cap cost with per-demo limits.
+- Fallback: cached sample answer + "Load sample data" button. See
+  `10-deployment-mastery/` backup plan and `18-ai-prompt-engineering/`.
+
+Decide with `tools/stack-advisor.py` (5 questions → recommendation) and
+`tools/api-finder.py` (requirements → API shortlist).
+
+> Free-tier numbers and dashboards change. Last verified: 2026-09-10 —
+> re-check the linked official docs before you depend on a limit.

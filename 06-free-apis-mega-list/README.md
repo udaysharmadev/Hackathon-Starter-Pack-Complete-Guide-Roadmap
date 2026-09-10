@@ -241,7 +241,7 @@ Most free tiers sound generous until you do the math. Here's what a typical hack
 | Email notifications (100/day) | 100 emails | 100/day free | $0.0001/email | $0 — right at limit |
 | Image uploads (50/day) | 50 uploads | 25 credits/day (Cloudinary) | $0.01/upload | $0 for hackathon |
 
-**The honest math:** Most hackathon projects stay within free tiers if you cache aggressively and don't make redundant calls. The real cost risk is OpenAI — a $5 credit sounds like a lot, but GPT-4 calls eat through it fast. Stick to GPT-3.5-turbo for demos.
+**The honest math:** Most hackathon projects stay within free tiers if you cache aggressively and don't make redundant calls. The real cost risk is metered LLM APIs — a small credit goes fast on flagship models. Use a cheaper/mini model for demos and cap max tokens per request.
 
 ## The API that kills your demo — common failure modes and how to prevent them
 
@@ -337,3 +337,10 @@ Keep a `cache/` directory with JSON files for each API endpoint. If the live cal
 ## Final advice
 
 The best hackathon APIs are boring, reliable, and well-understood. Don't use a cutting-edge API you've never tested. The goal isn't to showcase the API — it's to showcase your idea. The API is plumbing, not the product.
+
+---
+
+> Free tiers, rate limits, and pricing change frequently. Last verified: 2026-09-10.
+> Before you build on an API, open its official pricing/limits page and confirm
+> the free tier + auth flow. Keep a cached-fixture fallback for every live API
+> in your golden-path demo.

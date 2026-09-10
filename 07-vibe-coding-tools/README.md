@@ -63,12 +63,17 @@ flowchart TD
 
 ### Cursor setup guide
 
+> Note (verified Sept 2026): model names and mode names change every few
+> months. Pick a current frontier model in Settings → Models and use the
+> current multi-file / agent mode — the workflow below stays the same.
+
 **Install and configure:**
 1. Download Cursor from cursor.com
 2. Open your project folder (not just a file)
-3. Go to Settings → Models and pick Claude 3.5 Sonnet or GPT-4o
-4. Enable "Composer" mode for multi-file edits
-5. Set your `.cursorrules` file in the project root:
+3. Go to Settings → Models and pick a current frontier model
+   (whatever is current — don't pin to an old model name from a blog post)
+4. Use the agent / multi-file edit mode for cross-file changes
+5. Set your `.cursorrules` / project-rules file in the project root:
 
 ```markdown
 # Project rules
@@ -80,13 +85,43 @@ flowchart TD
 - No comments unless the logic is non-obvious
 ```
 
-**Keyboard shortcuts to know:**
-- `Cmd+K` — inline edit selection
-- `Cmd+L` — open chat panel
-- `Cmd+Shift+L` — add current file to chat context
-- `Cmd+I` — open Composer for multi-file changes
+**Keyboard shortcuts to know (verify in-app — they get remapped):**
+- Inline edit selection
+- Open chat panel with current file as context
+- Add open files to chat context
+- Open agent mode for multi-file changes
 
 **Pro tip:** Before asking Cursor to generate code, open the relevant files first. Cursor uses the open files as context. If you have the wrong file open, you'll get the wrong code.
+
+### Agentic coding in 2026: Claude Code / Gemini CLI / Copilot agent
+
+Editor autocomplete is table stakes now. The win is a tight agent loop:
+
+1. **One agent, one task.** "Add Supabase email auth to the Next.js app"
+   beats "build my app." Small tasks → reviewable diffs.
+2. **Give the agent the repo map.** Point at `README`, the stack doc, and the
+   target files. Paste the error + the failing test, not just "it broke."
+3. **Require a test + a run.** "Run `npm run build` / `pytest` and paste the
+   output" catches 80% of agent hallucinations.
+4. **Cap blast radius.** Let the agent touch `app/`, `components/`, `lib/` —
+   keep `auth`, `migrations`, `.env*` human-reviewed.
+5. **Commit between tasks.** `git commit` after each working step so you can
+   `git revert` a bad agent run in seconds.
+
+Suggested split for a team of 3: one person drives the agent in the editor,
+one reviews every diff + runs the app, one owns docs/pitch/deploy. Rotate
+every 4–6 hours so nobody "vibes" code they can't explain to judges.
+
+### MCP + tool-use guardrails
+
+If you wire model-to-tool protocols (MCP servers, function calling):
+
+- Whitelist tools per demo (read files, run tests, query dev DB). No prod
+  keys, no `rm -rf`, no auto-deploy.
+- Log every tool call the judge might ask about — "what did the agent
+  actually do?" is now a standard Q&A question.
+- Keep an offline fallback: if the model or tool endpoint is down, the demo
+  runs on fixtures via `?demo=1` (see `10-deployment-mastery/`).
 
 ### Copilot tips
 
@@ -441,7 +476,7 @@ AI API costs can sneak up on you during a hackathon. Here's how to stay free:
 | Cursor | 2000 completions/month, 50 slow premium requests | Use fast requests for implementation, slow for planning |
 | Copilot | Free for students, $10/month otherwise | Student email = free |
 | Claude | Free tier with usage limits | Use web interface, not API, for planning |
-| OpenAI | $5 new credit | Use GPT-3.5-turbo, not GPT-4 |
+| OpenAI | credit varies | Use a cheaper/mini model for demos, not the flagship |
 | v0 | Limited free generations | Generate once, customize manually |
 | Replit | Free tier with limited AI | Use for small tasks only |
 

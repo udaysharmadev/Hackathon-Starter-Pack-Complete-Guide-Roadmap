@@ -30,6 +30,13 @@ flowchart TD
 | GitHub events | GitHub-sponsored events and community programs | Developer tools and open source | Medium | Credits, swag, visibility | Make the repo itself part of the product | Treating GitHub as storage only | Present the repo as a polished asset |
 | AngelHack | Startup and builder events | Founder-like thinking | Medium | Network, cash, exposure | Tell a business and user story | Only focusing on code | Show market logic |
 | TiE | Entrepreneurship and innovation ecosystem | Startup-minded projects | Medium | Mentorship, exposure, network | Make the problem commercially believable | Too much academic framing | Tie the solution to adoption |
+| Unstop | India-first competitions incl. SIH-adjacent events | College fests, national challenges | Easy to Medium | Cash, jobs, internships | Complete your Unstop profile, attempt qualifiers early | Ignoring quiz/qualifier rounds | Keep resume + GitHub linked |
+| HackerEarth | Hiring + college challenges | DSA/coding-round style events | Medium | Cash, hiring | Practice short sprints, keep code public | Treating it as pure hiring test | Show product thinking too |
+
+> Verified Sept 2026: Devfolio (devfolio.co), Devpost (devpost.com), MLH (mlh.io),
+> Unstop (unstop.com), DoraHacks (dorahacks.io), ETHGlobal (ethglobal.com) all live.
+> Smart India Hackathon (SIH) runs on its own portal — search "Smart India Hackathon
+> official" each season and follow the posted rulebook, not old blogs.
 
 ## Search strings
 

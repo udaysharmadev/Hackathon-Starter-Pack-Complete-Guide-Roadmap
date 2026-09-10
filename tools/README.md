@@ -2,6 +2,11 @@
 
 CLI tools to help you plan, score, and prepare for hackathons.
 
+> All tools use Python 3 standard library only. Verified 2026-09-10:
+> `hackathon-tracker.py`, `idea-scorer.py`, `pitch-timer.py`,
+> `api-finder.py`, `stack-advisor.py`, `readme-generator.py` each run with
+> `python3 tools/<name>.py --help` (or the examples below).
+
 ## Available Tools
 
 ### 📋 hackathon-tracker.py
@@ -81,6 +86,48 @@ cat pitch.txt | python3 tools/pitch-timer.py
 - 60-second pitch: 150-180 words
 - 2-minute pitch: 300-360 words
 - 3-minute pitch: 450-540 words
+
+### 🔎 api-finder.py
+
+Suggest APIs from an offline index mirroring `06-free-apis-mega-list/`.
+
+```bash
+# Interactive
+python3 tools/api-finder.py
+
+# Direct query
+python3 tools/api-finder.py --need "realtime chat + auth"
+
+# See matchable keywords
+python3 tools/api-finder.py --list-categories
+```
+
+Always confirm free tier + rate limits on the official docs before building,
+and keep a cached-fixture fallback per API.
+
+### 🧭 stack-advisor.py
+
+Answer 5 questions → get the section-05 recommendation.
+
+```bash
+# Interactive (5 questions)
+python3 tools/stack-advisor.py
+
+# Presets: web-ai, dashboard, realtime, python-ml, landing, mobile
+python3 tools/stack-advisor.py --quick web-ai
+```
+
+### 📝 readme-generator.py
+
+Generate a judge-ready README (section-13 checklist).
+
+```bash
+# Print to stdout
+python3 tools/readme-generator.py
+
+# Write to file
+python3 tools/readme-generator.py --out README_NEW.md
+```
 
 ## Requirements
 
