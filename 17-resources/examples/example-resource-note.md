@@ -94,7 +94,7 @@ Keep a living document like this before every hackathon. Share it with your team
 
 **Why it matters for hackathons:** You will NOT have time to write CSS from scratch. Tailwind lets you prototype a polished UI in minutes. Most hackathon-winning projects use Tailwind or a Tailwind-based component library.
 
-**Free tier:** Completely free and open source. Pair with shadcn/ui (https://shadcn.dev) for pre-built, accessible components.
+**Free tier:** Completely free and open source. Pair with shadcn/ui (https://ui.shadcn.com) for pre-built, accessible components.
 
 **Pro tip:** Install the Tailwind VS Code extension before the event. The autocomplete for class names saves enormous time. Also, bookmark the Tailwind docs — the search is excellent and you'll use it constantly.
 

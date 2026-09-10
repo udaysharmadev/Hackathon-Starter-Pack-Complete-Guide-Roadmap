@@ -29,7 +29,7 @@ Add these one by one:
 | Variable | Value | Notes |
 |----------|-------|-------|
 | `DATABASE_URL` | `postgresql://user:pass@db.supabase.co:5432/trackintern` | Your Supabase connection string |
-| `NEXTAUTH_URL` | `https://trackintern.vercel.app` | Must match your deployment URL exactly |
+| `NEXTAUTH_URL` | `https://your-project.vercel.app` | Must match your deployment URL exactly |
 | `NEXTAUTH_SECRET` | `a3k2f9x7b1m4...` | Generate with `openssl rand -base64 32` |
 | `GOOGLE_CLIENT_ID` | (leave empty for now) | We're not using Google OAuth in the demo |
 | `GOOGLE_CLIENT_SECRET` | (leave empty for now) | Same |

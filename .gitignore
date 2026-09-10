@@ -33,3 +33,6 @@ build/
 *.log
 .env.local
 .env.*.local
+
+# CLI tool data (tools/README documents this as gitignored)
+data/

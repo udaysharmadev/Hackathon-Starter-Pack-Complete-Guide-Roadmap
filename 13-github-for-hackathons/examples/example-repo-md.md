@@ -20,7 +20,7 @@ This is a full, copy-pasteable README template. Replace every bracketed section 
 
 **Built during [HackMIT 2026](https://hackmit.org) — 1st Place Winner 🏆**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Demo-ff6b35?style=for-the-badge)](https://deadlineboss.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Demo-ff6b35?style=for-the-badge)](https://your-project.vercel.app)
 [![Video Walkthrough](https://img.shields.io/badge/Video-Walkthrough-red?style=for-the-badge)](https://youtube.com/watch?v=YOUR_VIDEO_ID)
 [![Pitch Deck](https://img.shields.io/badge/Pitch_Deck-Slides-blue?style=for-the-badge)](https://docs.google.com/presentation/d/YOUR_SLIDES_ID)
 

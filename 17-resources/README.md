@@ -291,7 +291,7 @@ Where the magic happens. Each platform has its own culture, judging criteria, an
 | **ETHGlobal** | [ethglobal.com](https://ethglobal.com) | Ethereum ecosystem | $50K-$1M+ | Build on Ethereum, chainlink, or IPFS — deep Web3 integration |
 | **HackerEarth** | [hackerearth.com](https://hackerearth.com) | Enterprise, AI/ML, blockchain | $5K-$30K | Solve a real business problem, not just a cool tech demo |
 | **AngelHack** | [angelhack.com](https://angelhack.com) | Global hackathons, startup-focused | $5K-$20K | Build a MVP that looks like a real startup |
-| **Kaggle** | [kaggle.com](https://kaggle.com) | Data science, ML competitions | $5K-$100K+ | High accuracy + clear methodology + good writeup |
+| **Kaggle** | [kaggle.com/competitions](https://kaggle.com/competitions) | Data science, ML competitions | $5K-$100K+ | High accuracy + clear methodology + good writeup |
 | **HackMIT** | [hackmit.org](https://hackmit.org) | Elite university hackathon | Sponsor prizes | Build something technically impressive |
 | **TreeHacks** | [treehacks.com](https://treehacks.com) | Stanford's hackathon | Sponsor prizes | Focus on innovation and technical depth |
 
@@ -354,11 +354,11 @@ Hackathons are better with people. These communities will help you find teammate
 
 | Community | URL | Focus | Why Join |
 |-----------|-----|-------|----------|
-| **MLH Community** | [mlh.io/community](https://mlh.io/community) | Hackathons, student developers | Team matching, hackathon announcements |
+| **MLH Community** | [discord.mlh.io](https://discord.mlh.io) | Hackathons, student developers | Team matching, hackathon announcements |
 | **Reactiflux** | [reactiflux.com](https://reactiflux.com) | React ecosystem | 200K+ members — fastest React help you'll find |
 | **Python Discord** | [pythondiscord.com](https://pythondiscord.com) | Python development | 500K+ members — helpful, active community |
-| **Tailwind CSS** | [tailwindcss.com/community](https://tailwindcss.com/community) | Tailwind CSS | Design help, component sharing |
-| **Supabase** | [supabase.com/community](https://supabase.com/community) | Supabase, Postgres, Auth | Direct help from Supabase team members |
+| **Tailwind CSS** | [github.com/tailwindlabs/tailwindcss/discussions](https://github.com/tailwindlabs/tailwindcss/discussions) | Tailwind CSS | Design help, component sharing |
+| **Supabase** | [discord.supabase.com](https://discord.supabase.com) | Supabase, Postgres, Auth | Direct help from Supabase team members |
 | **Vercel** | [vercel.com/community](https://vercel.com/community) | Next.js, Vercel deployment | Framework help, deployment issues |
 | **AI Engineer** | [ai.engineer](https://ai.engineer) | AI/ML engineering | Building AI products, prompt engineering |
 | **Open Source AI** | Various | Open-source AI models | Model deployment, fine-tuning help |
@@ -394,7 +394,7 @@ Stay informed without doom-scrolling Twitter. Curated knowledge, delivered to yo
 
 | Newsletter | URL | Frequency | What You Get |
 |------------|-----|-----------|--------------|
-| **MLH Newsletter** | [mlh.io/newsletter](https://mlh.io/newsletter) | Weekly | Upcoming hackathons, tips, opportunities |
+| **MLH Newsletter** | [mlh.com](https://www.mlh.com/) | Monthly | Hacker newsletter signup on the homepage — upcoming hackathons, tips, opportunities |
 | **Hacker Newsletter** | [hackernewsletter.com](https://hackernewsletter.com) | Weekly | Best Hacker News stories — curated, not overwhelming |
 | **ByteByteGo** | [blog.bytebytego.com](https://blog.bytebytego.com) | Weekly | System design concepts, architecture diagrams |
 | **TLDR Newsletter** | [tldr.tech](https://tldr.tech) | Daily | Tech news in 5 minutes — no fluff |
@@ -406,7 +406,7 @@ Stay informed without doom-scrolling Twitter. Curated knowledge, delivered to yo
 | Newsletter | URL | Frequency | What You Get |
 |------------|-----|-----------|--------------|
 | **The Batch** | [deeplearning.ai/the-batch](https://www.deeplearning.ai/the-batch) | Weekly | Andrew Ng's AI news digest |
-| **Ben's Bites** | [bensbites.beehiiv.com](https://bensbites.beehiiv.com) | Daily | AI news, tools, and tutorials |
+| **Ben's Bites** | [bensbites.com](https://www.bensbites.com) | Daily | AI news, tools, and tutorials |
 | **AI Tool Report** | [aitoolreport.com](https://aitoolreport.com) | Weekly | AI tools and use cases |
 
 ### Startup & Product Newsletters
