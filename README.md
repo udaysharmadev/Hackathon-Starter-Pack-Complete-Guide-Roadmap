@@ -899,6 +899,18 @@ If this project helps you, the best thing you can do is:
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=udaysharmadev%2Fhackathon-starter-pack-complete-guide-roadmap&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=udaysharmadev/hackathon-starter-pack-complete-guide-roadmap&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=udaysharmadev/hackathon-starter-pack-complete-guide-roadmap&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=udaysharmadev/hackathon-starter-pack-complete-guide-roadmap&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 <p align="center">
   <a href="https://github.com/udaysharmadev/Hackathon-Starter-Pack">
     <img alt="star" src="https://img.shields.io/badge/⭐_Star_This_Repo-brightgreen?style=for-the-badge">
