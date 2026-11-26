@@ -32,6 +32,7 @@ flowchart TD
 | TiE | Entrepreneurship and innovation ecosystem | Startup-minded projects | Medium | Mentorship, exposure, network | Make the problem commercially believable | Too much academic framing | Tie the solution to adoption |
 | Unstop | India-first competitions incl. SIH-adjacent events | College fests, national challenges | Easy to Medium | Cash, jobs, internships | Complete your Unstop profile, attempt qualifiers early | Ignoring quiz/qualifier rounds | Keep resume + GitHub linked |
 | HackerEarth | Hiring + college challenges | DSA/coding-round style events | Medium | Cash, hiring | Practice short sprints, keep code public | Treating it as pure hiring test | Show product thinking too |
+| [Dapping](https://dapp.ing/hackathons) | Catalog of crypto and AI hackathons, grants and bounties, with organizer-issued results on builder profiles | Crypto and AI builders tracking open events in one place | Easy to Medium | Cash, tokens, grants | Filter by ecosystem and deadline, then apply on the organizer's page | Applying without reading sponsor tracks | Results issued by the organizer show on your profile as proof |
 
 > Verified Sept 2026: Devfolio (devfolio.co), Devpost (devpost.com), MLH (mlh.io),
 > Unstop (unstop.com), DoraHacks (dorahacks.io), ETHGlobal (ethglobal.com) all live.
